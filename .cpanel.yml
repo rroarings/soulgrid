@@ -2,7 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/notnickc/public_html/
-    - /bin/cp src/*.html $DEPLOYPATH
-    - /bin.cp src/assets/ $DEPLOYPATH
-    - /bin/cp src/js
-    - .bin.cp src/scss
+    - /bin/cp src/ $DEPLOYPATH
