@@ -1,0 +1,40 @@
+main, section {
+ margin: 3rem 0;
+}
+
+.header__logo {
+  @include respond-to("xs") {
+    width: 65%;
+  }
+  @include respond-to("sm") {
+    width: 75%;
+  }
+  @include respond-to("md") {
+    width: 70%;
+  }
+  @include respond-to("lg") {
+    width: 75%;
+  }
+}
+
+footer {
+  background-color: #000;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff; // Set text color to white
+}
+
+.btn-outline-secondary {
+
+}
+
+.project__tag-outline {
+  outline: 1px solid $primary;
+  color: #fff;
+}
+
+.project__tag-outline-secondary {
+  outline: 1px solid $secondary;
+  color: #fff;
+}

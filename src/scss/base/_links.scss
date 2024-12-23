@@ -1,0 +1,10 @@
+.btn-link-arrow-hover .bi {
+  margin-left: 0.3rem;
+  transition: all 0.3s ease;
+}
+
+.btn-link-arrow-hover:hover .bi {
+  transform: rotate(45deg);
+  transition: all 0.3s ease;
+}
+

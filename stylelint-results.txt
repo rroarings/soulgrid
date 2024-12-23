@@ -1,0 +1,134 @@
+
+src/scss/styles.scss
+   7:19  ✖  Expected "#E0E0E0" to be "#e0e0e0"        @stylistic/color-hex-case
+   7:43  ✖  Unexpected whitespace at end of line      @stylistic/no-eol-whitespace
+  61:35  ✖  Unexpected missing end-of-source newline  @stylistic/no-missing-end-of-source-newline
+
+src/scss/base/_defaults.scss
+  1:5  ✖  Expected newline after ","                                @stylistic/selector-list-comma-newline-after
+  2:2  ✖  Expected indentation of 2 spaces                          @stylistic/indentation
+  5:1  ✖  Expected class selector ".header__logo" to be kebab-case  selector-class-pattern
+
+src/scss/base/_global-queries.scss
+  3:5   ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  3:9   ✖  Expected single space after "," in a single-line list  @stylistic/selector-list-comma-space-after
+  3:9   ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  3:12  ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  3:16  ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  3:20  ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  3:25  ✖  Unexpected empty block                                 block-no-empty
+  8:5   ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  8:9   ✖  Expected single space after "," in a single-line list  @stylistic/selector-list-comma-space-after
+  8:9   ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  8:12  ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  8:16  ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  8:20  ✖  Expected newline after ","                             @stylistic/selector-list-comma-newline-after
+  8:25  ✖  Unexpected empty block                                 block-no-empty
+
+src/scss/base/_images.scss
+  1:1   ✖  Expected class selector ".project__image-item" to be kebab-case  selector-class-pattern
+  3:3   ✖  Expected "padding" to come before "margin-bottom"                order/properties-order
+  3:12  ✖  Unexpected leading zero                                          @stylistic/number-leading-zero
+  5:26  ✖  Unexpected leading zero                                          @stylistic/number-leading-zero
+  9:19  ✖  Unexpected leading zero                                          @stylistic/number-leading-zero
+
+src/scss/base/_lenis.scss
+   1:1   ✖  Unexpected qualifying type selector "html.lenis"  selector-no-qualifying-type
+   2:1   ✖  Unexpected qualifying type selector "html.lenis"  selector-no-qualifying-type
+   7:25  ✖  Unexpected !important                             declaration-no-important
+  20:1   ✖  Unexpected missing end-of-source newline          @stylistic/no-missing-end-of-source-newline
+
+src/scss/base/_links.scss
+  2:16  ✖  Unexpected leading zero                           @stylistic/number-leading-zero
+  3:19  ✖  Unexpected leading zero                           @stylistic/number-leading-zero
+  8:3   ✖  Expected "transition" to come before "transform"  order/properties-order
+  8:19  ✖  Unexpected leading zero                           @stylistic/number-leading-zero
+
+src/scss/components/_card.scss
+   2:6   ✖  Expected class selector ".card__service" to be kebab-case            selector-class-pattern
+   6:3   ✖  Expected "overflow" to come before "box-shadow"                      order/properties-order
+   8:25  ✖  Unexpected leading zero                                              @stylistic/number-leading-zero
+   8:47  ✖  Unexpected leading zero                                              @stylistic/number-leading-zero
+  11:6   ✖  Expected class selector ".card__service" to be kebab-case            selector-class-pattern
+  15:3   ✖  Expected "margin-bottom" to come before "fill"                       order/properties-order
+  16:20  ✖  Unexpected leading zero                                              @stylistic/number-leading-zero
+  19:6   ✖  Expected class selector ".card__service" to be kebab-case            selector-class-pattern
+  22:3   ✖  Expected "margin-bottom" to come before "border"                     order/properties-order
+  26:12  ✖  Expected class selector ".card__service-title" to be kebab-case      selector-class-pattern
+  31:11  ✖  Expected class selector ".card__service-text" to be kebab-case       selector-class-pattern
+  31:31  ✖  Unexpected empty block                                               block-no-empty
+  35:6   ✖  Expected class selector ".card__service" to be kebab-case            selector-class-pattern
+  35:27  ✖  Unexpected empty block                                               block-no-empty
+  38:6   ✖  Expected class selector ".card__service" to be kebab-case            selector-class-pattern
+  39:14  ✖  Unexpected whitespace at end of line                                 @stylistic/no-eol-whitespace
+  39:15  ✖  Expected newline before "}" of a multi-line block                    @stylistic/block-closing-brace-newline-before
+  42:6   ✖  Expected class selector ".card__service" to be kebab-case            selector-class-pattern
+  42:38  ✖  Expected class selector ".card__service-title" to be kebab-case      selector-class-pattern
+  46:6   ✖  Expected class selector ".card__service" to be kebab-case            selector-class-pattern
+  51:6   ✖  Expected class selector ".card__testimonial" to be kebab-case        selector-class-pattern
+  53:3   ✖  Expected "padding" to come before "border"                           order/properties-order
+  54:19  ✖  Unexpected leading zero                                              @stylistic/number-leading-zero
+  57:6   ✖  Expected class selector ".card__testimonial" to be kebab-case        selector-class-pattern
+  57:29  ✖  Unexpected empty block                                               block-no-empty
+  60:12  ✖  Expected class selector ".card__testimonial-title" to be kebab-case  selector-class-pattern
+  60:37  ✖  Unexpected empty block                                               block-no-empty
+  63:11  ✖  Expected class selector ".card__testimonial-text" to be kebab-case   selector-class-pattern
+  63:35  ✖  Unexpected empty block                                               block-no-empty
+  66:6   ✖  Expected class selector ".card__testimonial" to be kebab-case        selector-class-pattern
+  66:31  ✖  Unexpected empty block                                               block-no-empty
+  69:6   ✖  Expected class selector ".card__testimonial" to be kebab-case        selector-class-pattern
+  73:6   ✖  Expected class selector ".card__testimonial" to be kebab-case        selector-class-pattern
+  73:42  ✖  Expected class selector ".card__testimonial-title" to be kebab-case  selector-class-pattern
+
+src/scss/components/_carousel.scss
+  1:1  ✖  Unexpected empty source  no-empty-source
+
+src/scss/components/_forms.scss
+  1:1  ✖  Expected class selector ".form__contact" to be kebab-case  selector-class-pattern
+  4:1  ✖  Unexpected missing end-of-source newline                   @stylistic/no-missing-end-of-source-newline
+
+src/scss/components/_lists.scss
+   2:1   ✖  Expected indentation of 2 spaces      @stylistic/indentation
+   5:50  ✖  Unexpected empty block                block-no-empty
+   8:46  ✖  Unexpected empty block                block-no-empty
+  11:52  ✖  Unexpected empty block                block-no-empty
+  12:2   ✖  Unexpected whitespace at end of line  @stylistic/no-eol-whitespace
+  16:1   ✖  Expected no more than 2 empty lines   @stylistic/max-empty-lines
+  17:1   ✖  Expected no more than 2 empty lines   @stylistic/max-empty-lines
+
+src/scss/components/_scroller.scss
+   5:1   ✖  Expected class selector ".scroller__inner" to be kebab-case  selector-class-pattern
+   7:3   ✖  Expected "display" to come before "padding-block"            order/properties-order
+  12:1   ✖  Expected class selector ".scroller__inner" to be kebab-case  selector-class-pattern
+  23:3   ✖  Unexpected vendor-prefix "-webkit-mask"                      property-no-vendor-prefix
+  23:15  ✖  Expected newline after ":" with a multi-line declaration     @stylistic/declaration-colon-newline-after
+  26:5   ✖  Unexpected named color "white"                               color-named
+  27:5   ✖  Unexpected named color "white"                               color-named
+  30:45  ✖  Unexpected named color "white"                               color-named
+  30:56  ✖  Unexpected named color "white"                               color-named
+  33:33  ✖  Expected class selector ".scroller__inner" to be kebab-case  selector-class-pattern
+  35:3   ✖  Expected "flex-wrap" to come before "width"                  order/properties-order
+  36:12  ✖  Expected newline after ":" with a multi-line declaration     @stylistic/declaration-colon-newline-after
+  58:38  ✖  Unexpected leading zero                                      @stylistic/number-leading-zero
+
+src/scss/components/_wrappers.scss
+   1:1   ✖  Expected class selector ".wrapper__mini-contact" to be kebab-case    selector-class-pattern
+   5:1   ✖  Expected class selector ".mini-contact__content" to be kebab-case    selector-class-pattern
+   9:1   ✖  Expected class selector ".wrapper__card__projects" to be kebab-case  selector-class-pattern
+  11:3   ✖  Expected "padding" to come before "background-color"                 order/properties-order
+  15:1   ✖  Expected class selector ".wrapper__card__projects" to be kebab-case  selector-class-pattern
+  20:1   ✖  Expected class selector ".wrapper__project-kpi" to be kebab-case     selector-class-pattern
+  22:3   ✖  Expected "padding" to come before "background-color"                 order/properties-order
+  22:12  ✖  Unexpected leading zero                                              @stylistic/number-leading-zero
+  24:19  ✖  Unexpected leading zero                                              @stylistic/number-leading-zero
+  27:1   ✖  Expected class selector ".wrapper__project-kpi" to be kebab-case     selector-class-pattern
+  29:19  ✖  Unexpected leading zero                                              @stylistic/number-leading-zero
+  32:1   ✖  Expected class selector ".wrapper__project-kpi" to be kebab-case     selector-class-pattern
+  35:3   ✖  Expected "margin-right" to come before "margin-bottom"               order/properties-order
+  35:17  ✖  Unexpected leading zero                                              @stylistic/number-leading-zero
+  38:1   ✖  Expected class selector ".wrapper__project-kpi" to be kebab-case     selector-class-pattern
+  38:33  ✖  Unexpected empty block                                               block-no-empty
+
+✖ 106 problems (106 errors, 0 warnings)
+  43 errors potentially fixable with the "--fix" option.
+

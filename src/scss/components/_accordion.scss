@@ -1,0 +1,16 @@
+.accordion-button {
+  &.collapsed {
+    background-color: $clr-surface-a10;
+  }
+
+  &:hover {
+    background-color: $clr-surface-a30; 
+  }
+}
+
+.accordion-button:not(.collapsed) {
+}
+
+.accordion-body {
+  background-color: $clr-surface-a20;
+}

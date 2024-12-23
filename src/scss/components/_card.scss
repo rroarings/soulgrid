@@ -1,0 +1,58 @@
+/* Service Cards */
+.card.card__service {
+  padding: 1.3rem;
+  background-color: $clr-surface-a10;
+  box-shadow: none;
+  overflow: hidden;
+  border-radius: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.card__service img {
+  padding: 2px;
+  margin-bottom: 2rem;
+  transition: transform .3s ease;
+}
+
+.card-title.card__service-title {
+  transition: color 300ms ease;
+}
+
+.card.card__service:hover svg {
+  fill: #f00; 
+}
+
+.card.card__service:hover .card-title.card__service-title {
+  color: $clr-primary-a30;
+}
+
+.card.card__service:hover img {
+  transform: scale(1.05);
+}
+
+/* Testimonial Cards */
+.card.card__testimonial {
+  border: 5px solid $secondary;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.card.card__testimonial img {
+}
+
+.card-title.card__testimonial-title {
+}
+
+.card-text.card__testimonial-text {
+}
+
+.card.card__testimonial:hover {
+}
+
+.card.card__testimonial:hover svg {
+  fill: #f00;
+}
+
+.card.card__testimonial:hover .card-title.card__testimonial-title {
+  color: #f00;
+}

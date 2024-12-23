@@ -1,0 +1,15 @@
+rules:
+  # heading-order: true
+  # html-lang-valid: true
+  image-alt: true
+  # link-name: true
+  # list: true
+  # aria-roles: true
+  # aria-text: true
+  # label: true
+  # aria-required-attr: true
+  # aria-roledescription: true
+tags:
+  - wcag21a
+  - wcag21aa
+  - best-practices

@@ -1,0 +1,21 @@
+// _variables.scss
+$breakpoints: (
+  "xs": 0, // Extra small
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1400px
+);
+
+@mixin respond-to($breakpoint) {
+  $size: map-get($breakpoints, $breakpoint);
+  @if $size != null {
+    @media (min-width: $size) {
+      @content;
+    }
+  } @else {
+    @error "Invalid breakpoint: `#{$breakpoint}`. Check your breakpoint map.";
+  }
+}
+
