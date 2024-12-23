@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/notnickc/public_html/
-    - /bin/cp src/ $DEPLOYPATH
+    - npm install
+    - npm run build
+    - /bin/cp dist/* $DEPLOYPATH
