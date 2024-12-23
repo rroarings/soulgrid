@@ -13,6 +13,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "lenis": "^1.1.18",
     "vnu-jar": "^24.10.17"
   },
   "devDependencies": {
@@ -21,8 +22,8 @@
     "lenis": "^1.1.18",
     "parcel": "^2.13.2",
     "stylelint-config-standard": "^36.0.1",
-    "stylelint-config-twbs-bootstrap": "^15.1.0"
+    "stylelint-config-twbs-bootstrap": "^15.1.0",
+    "svgo": "^3.3.2"
   },
-  "main": "index.js",
   "description": ""
 }
